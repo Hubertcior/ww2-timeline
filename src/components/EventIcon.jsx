@@ -7,10 +7,13 @@ import {
   ScrollText,
   Shield,
   BicepsFlexed,
+  ArrowRightFromLine,
+  ArrowLeftFromLine,
 } from "lucide-react";
 
 const EventIcon = ({ type }) => {
   const iconClass = "text-amber-900 w-4 h-4 inline-block";
+  const iconClassForButton = "text-white w-8 h-8 inline-block opacity-100";
 
   switch (type) {
     case "start":
@@ -27,6 +30,10 @@ const EventIcon = ({ type }) => {
       return <Shield className={iconClass} />;
     case "fight":
       return <BicepsFlexed className={iconClass} />;
+    case "openButton":
+      return <ArrowRightFromLine className={iconClassForButton} />;
+    case "closeButton":
+      return <ArrowLeftFromLine className={iconClassForButton} />;
     default:
       return null;
   }
