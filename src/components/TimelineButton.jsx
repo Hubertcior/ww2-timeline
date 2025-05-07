@@ -5,11 +5,11 @@ import { Tooltip } from "react-tooltip";
 const TimelineButton = ({ isOpen, handleTimelineButtonClick }) => {
   return (
     <>
-      <Tooltip id="my-tooltip" />
+      <Tooltip id="my-tooltip" noArrow />
       <motion.div
         data-tooltip-id="my-tooltip"
-        data-tooltip-content={isOpen ? "Close Timeline" : "Open Timeline"}
-        data-tooltip-variant="success"
+        data-tooltip-content={isOpen ? "Close Panel" : "Open Panel"}
+        data-tooltip-variant={isOpen ? "error" : "success"}
         onClick={handleTimelineButtonClick}
         initial={{ rotate: 0 }}
         animate={{ rotate: !isOpen ? -180 : 0 }}
@@ -23,5 +23,3 @@ const TimelineButton = ({ isOpen, handleTimelineButtonClick }) => {
 };
 
 export default TimelineButton;
-
-//TODO - better positioning of the button.
