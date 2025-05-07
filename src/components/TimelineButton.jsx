@@ -16,3 +16,5 @@ const TimelineButton = ({ isOpen, handleTimelineButtonClick }) => {
 };
 
 export default TimelineButton;
+
+//TODO - better positioning of the button.
