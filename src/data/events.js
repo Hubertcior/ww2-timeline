@@ -1,0 +1,42 @@
+export const events = [
+  {
+    year: 1939,
+    month: "Wrzesień",
+    day: 1,
+    description: "Wybuch II wojny światowej",
+    info: "Około 4:45 Niemcy, bez uprzedniego wypowiedzenia wojny, rozpoczęły atak na Polskę. Prawdopodobnie pierwszym celem ataku lotniczego był pozbawiony znaczenia militarnego Wieluń. Do pierwszych walk doszło na Westerplatte. Do ataku na Polskę dołączyły wojska marionetkowego rządu Słowacji.",
+    type: "start",
+  },
+  {
+    year: 1939,
+    month: "Wrzesień",
+    day: 3,
+    description: "Francja i Wielka Brytania wypowiadają wojnę Niemcom",
+    info: "Francja i Wielka Brytania (oraz Australia, Nowa Zelandia i Indie) wypowiedziały wojnę III Rzeszy. Konflikt z Polską przekształcił się w wojnę światową.  Zakończyła się przegrana przez Polskę bitwa graniczna.",
+    type: "diplomacy",
+  },
+  {
+    year: 1939,
+    month: "Wrzesień",
+    day: 6,
+    description: "Francja atakuje Niemców",
+    info: "Wojska francuskie rozpoczęły ograniczoną ofensywę na przedpolu Linii Zygfryda. Działania zostały zakończone sześć dni później.",
+    type: "atack",
+  },
+  {
+    year: 1939,
+    month: "Wrzesień",
+    day: 8,
+    description: "Obrona Warszawy",
+    info: "Rozpoczęła się obrona Warszawy. Tego samego dnia obowiązki Komisarza Cywilnego przy Dowództwie Obrony Warszawy objął prezydent miasta Stefan Starzyński.",
+    type: "defense",
+  },
+  {
+    year: 1939,
+    month: "Wrzesień",
+    day: 9,
+    description: "Bitwa nad Bzurą",
+    info: "Armie „Poznań” i „Pomorze” dowodzone przez gen. Tadeusza Kutrzebę rozpoczęły ofensywę, która przeszła do historii jako bitwa nad Bzurą. Trwająca dwa tygodnie bitwa była największą do 1941 r. operacją zaczepną przeprowadzoną przez wojska alianckie.",
+    type: "fight",
+  },
+];
