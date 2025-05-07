@@ -23,7 +23,7 @@ function App() {
   return (
     <div>
       <div
-        className={`flex justify-center py-20 bg-gray-100/90 min-h-screen ${
+        className={`flex justify-between py-20 px-30 bg-gray-100/90 min-h-screen ${
           isOpen ? panelOpened : ""
         }`}
       >
@@ -32,12 +32,12 @@ function App() {
           handleClick={handleEventClick}
           selectedEvent={selectedEvent}
         />
-        <Info selectedEvent={selectedEvent} />
         <TimelineButton
           isOpen={isOpen}
           handleTimelineButtonClick={handleTimeLineButtonClick}
         />
       </div>
+      <Info selectedEvent={selectedEvent} isOpen={isOpen} />
       {isOpen && <TimelinePanel></TimelinePanel>}
     </div>
   );

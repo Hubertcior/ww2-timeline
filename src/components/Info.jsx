@@ -1,11 +1,13 @@
 import { motion, AnimatePresence } from "framer-motion";
 
-const Info = ({ selectedEvent }) => {
+const Info = ({ selectedEvent, isOpen }) => {
   return (
     <div className="w-1/2 relative">
       <AnimatePresence mode="wait">
         <motion.div
-          className="border-3 border-amber-900 flex justify-center items-center fixed top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-[-15%] w-[500px] h-[600px] bg-gray-200 p-6 rounded-lg shadow-md max-w-md"
+          className={`border-3 border-amber-900 flex justify-center items-center fixed top-1/2 left-1/2 transform -translate-y-1/2  ${
+            isOpen ? "-translate-x-[60%]" : "-translate-x-[40%]"
+          } w-[500px] h-[600px] bg-gray-200 p-6 rounded-lg shadow-md max-w-md`}
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, ease: "easeOut" }}
