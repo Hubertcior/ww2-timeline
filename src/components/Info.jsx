@@ -15,10 +15,9 @@ const Info = ({ selectedEvent }) => {
             <motion.h1
               key="empty"
               className="text-center text-stone-900 text-lg font-semibold"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              transition={{ duration: 0.3 }}
+              initial={{ opacity: 1 }} //adjust initial visibility here
+              animate={{ opacity: [0.3, 1, 0.3] }} //adjust animation frames here
+              transition={{ repeat: Infinity, duration: 1.3 }} //adjust animation speed here
             >
               Wybierz wydarzenie, aby zobaczyć szczegóły.
             </motion.h1>
