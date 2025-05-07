@@ -8,7 +8,7 @@ const TimelineButton = ({ isOpen, handleTimelineButtonClick }) => {
       <Tooltip id="my-tooltip" noArrow />
       <motion.div
         data-tooltip-id="my-tooltip"
-        data-tooltip-content={isOpen ? "Close Panel" : "Open Panel"}
+        data-tooltip-content={isOpen ? "Zamknij Panel" : "Otwórz Panel"}
         data-tooltip-variant={isOpen ? "error" : "success"}
         onClick={handleTimelineButtonClick}
         initial={{ rotate: 0 }}
