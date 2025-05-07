@@ -12,7 +12,7 @@ function App() {
   };
 
   return (
-    <div className="flex justify-center p-20 py-10 bg-gray-100 min-h-screen">
+    <div className="flex justify-center p-20 py-10 bg-gray-100 min-h-screen opacity-90">
       <TimeLine
         events={events}
         handleClick={handleEventClick}

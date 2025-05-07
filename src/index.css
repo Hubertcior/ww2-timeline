@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+/* Tailwind CSS base styles */
+body {
+  background-image: url("./assets/images/background.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
