@@ -5,6 +5,7 @@ import TimelinePanel from "./components/TimelinePanel.jsx";
 import { events } from "./data/events.js";
 import "./App.css";
 import { useState } from "react";
+import { AnimatePresence, motion } from "framer-motion";
 
 function App() {
   const [selectedEvent, setSelectedEvent] = useState(null);
@@ -18,14 +19,18 @@ function App() {
     setIsOpen((prev) => !prev);
   };
 
-  const panelOpened = "translate-x-[-200px]";
+  const panelVariants = {
+    open: { x: 0, transition: { duration: 0.5 } },
+    closed: { x: -200, transition: { duration: 0.5 } },
+  };
 
   return (
     <div>
-      <div
-        className={`flex justify-between py-20 px-30 bg-gray-100/90 min-h-screen ${
-          isOpen ? panelOpened : ""
-        }`}
+      <motion.div
+        className={`flex justify-between py-20 px-30 bg-gray-100/90 min-h-screen`}
+        animate={!isOpen ? "open" : "closed"}
+        initial="closed"
+        variants={panelVariants}
       >
         <TimeLine
           events={events}
@@ -36,9 +41,11 @@ function App() {
           isOpen={isOpen}
           handleTimelineButtonClick={handleTimeLineButtonClick}
         />
-      </div>
+      </motion.div>
       <Info selectedEvent={selectedEvent} isOpen={isOpen} />
-      {isOpen && <TimelinePanel></TimelinePanel>}
+      <AnimatePresence>
+        {isOpen && <TimelinePanel></TimelinePanel>}
+      </AnimatePresence>
     </div>
   );
 }
