@@ -1,5 +1,6 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useEvent } from "../context/EventContext.jsx";
+import EventIcon from "./EventIcon.jsx";
 
 const Info = ({ isOpen }) => {
   const infoVariants = {
@@ -38,6 +39,7 @@ const Info = ({ isOpen }) => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4 }}
             >
+              <EventIcon place={"info"} type={selectedEvent.type} />
               <strong>
                 <h2 className="text-xl font-bold border-b-2 border-stone-600 pb-1">
                   {selectedEvent.day} {selectedEvent.month} {selectedEvent.year}

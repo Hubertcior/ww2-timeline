@@ -22,8 +22,10 @@ import {
   Bomb,
 } from "lucide-react";
 
-const EventIcon = ({ type }) => {
-  const iconClass = "text-amber-900 w-4 h-4 inline-block";
+const EventIcon = ({ type, place }) => {
+  const iconClass = `text-amber-900  inline-block ${
+    place === "info" ? "w-8 h-8" : "w-4 h-4 "
+  }`;
   const iconClassForButton = "text-white w-8 h-8 inline-block opacity-100";
 
   switch (type) {
