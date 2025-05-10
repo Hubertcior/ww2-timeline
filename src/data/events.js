@@ -487,7 +487,7 @@ export const events = [
     day: 27,
     description: "Przerwanie oblężenia Tobruku",
     info: "W rezultacie brytyjskiej ofensywy przerwane zostało oblężenie Tobruku.",
-    type: "",
+    type: "Ban",
   },
   {
     year: 1941,
@@ -495,7 +495,7 @@ export const events = [
     day: 28,
     description: "Kapitulacja Włochów w Afryce Wschodniej",
     info: "Kapitulacja ostatnich oddziałów włoskich w Afryce Wschodniej.",
-    type: "",
+    type: "ShieldOff",
   },
   {
     year: 1941,
@@ -503,7 +503,7 @@ export const events = [
     day: 4,
     description: "Deklaracja Sikorski-Stalin",
     info: "Premier Sikorski i Stalin podpisali w Moskwie polsko-sowiecką deklarację o walce z Niemcami.",
-    type: "",
+    type: "ScrollText",
   },
   {
     year: 1941,
@@ -511,7 +511,7 @@ export const events = [
     day: 6,
     description: "Kontrofensywa pod Moskwą",
     info: "Początek kontrofensywy Armii Czerwonej w rejonie Moskwy. Wielka Brytania wypowiedziała wojnę Węgrom, Rumunii i Finlandii.",
-    type: "",
+    type: "Swords",
   },
   {
     year: 1941,
@@ -519,7 +519,7 @@ export const events = [
     day: 7,
     description: "Atak na Pearl Harbor",
     info: "Japoński atak na amerykańską bazę morską Pearl Harbor.",
-    type: "",
+    type: "Swords",
   },
   {
     year: 1941,
@@ -527,7 +527,7 @@ export const events = [
     day: 8,
     description: "Japonia wypowiada wojnę aliantom",
     info: "Japonia wypowiedziała wojnę Stanom Zjednoczonym, Wielkiej Brytanii, Australii i Kanadzie.",
-    type: "",
+    type: "Swords",
   },
   {
     year: 1941,
@@ -535,7 +535,7 @@ export const events = [
     day: 11,
     description: "Niemcy i Włochy wypowiadają wojnę USA",
     info: "Niemcy i Włochy wypowiedziały Stanom Zjednoczonym wojnę.",
-    type: "",
+    type: "Swords",
   },
   {
     year: 1942,
@@ -543,7 +543,7 @@ export const events = [
     day: 1,
     description: "Deklaracja Narodów Zjednoczonych",
     info: "W Waszyngtonie 26 państw, w tym Polska, podpisało Deklarację Narodów Zjednoczonych.",
-    type: "",
+    type: "ScrollText",
   },
   {
     year: 1942,
@@ -551,7 +551,7 @@ export const events = [
     day: 9,
     description: "Ofensywa Armii Czerwonej",
     info: "Początek ofensywy Armii Czerwonej, która do końca lutego odrzuciła wojska niemieckie ok. 400 km na zachód od Moskwy.",
-    type: "",
+    type: "Swords",
   },
   {
     year: 1942,
@@ -559,7 +559,7 @@ export const events = [
     day: 20,
     description: "Konferencja w Wannsee",
     info: "Główny Urząd Bezpieczeństwa Rzeszy (RSHA) przedstawił plan „ostatecznego rozwiązania kwestii żydowskiej”, rozpoczynając masową eksterminację Żydów.",
-    type: "",
+    type: "ScrollText",
   },
   {
     year: 1942,
@@ -567,7 +567,7 @@ export const events = [
     day: 21,
     description: "Kontrofensywa Niemców w Afryce",
     info: "Początek kontrofensywy wojsk niemieckich w Afryce Północnej.",
-    type: "",
+    type: "ScrollText",
   },
   {
     year: 1942,
@@ -575,7 +575,7 @@ export const events = [
     day: 15,
     description: "Upadek Singapuru",
     info: "Wojska japońskie zdobyły Singapur.",
-    type: "",
+    type: "ShieldOff",
   },
   {
     year: 1942,
@@ -583,7 +583,7 @@ export const events = [
     day: 19,
     description: "Bombardowanie Darwinu",
     info: "Japończycy zbombardowali australijskie miasto Darwin; zginęło 250 osób.",
-    type: "",
+    type: "Plane",
   },
   {
     year: 1942,
@@ -591,7 +591,7 @@ export const events = [
     day: 7,
     description: "Zdobycie Rangunu",
     info: "Wojska japońskie zdobyły Rangun w Birmie.",
-    type: "",
+    type: "MapPinned",
   },
   {
     year: 1942,
@@ -599,7 +599,7 @@ export const events = [
     day: 16,
     description: "Likwidacja getta w Lublinie",
     info: "Niemcy rozpoczęli likwidację getta w Lublinie, wysyłając transporty Żydów do obozu w Bełżcu, zapoczątkowując Akcję Reinhardt.",
-    type: "",
+    type: "ShieldX",
   },
   {
     year: 1942,
@@ -607,7 +607,7 @@ export const events = [
     day: 10,
     description: "Kapitulacja na Bataan",
     info: "Kapitulacja oddziałów amerykańskich na półwyspie Bataan (Filipiny).",
-    type: "",
+    type: "ShieldOff",
   },
   {
     year: 1942,
@@ -615,7 +615,7 @@ export const events = [
     day: 4,
     description: "Bitwa na Morzu Koralowym",
     info: "Pierwsze w historii wielkie starcie lotniskowców (4–8 maja).",
-    type: "",
+    type: "Ship",
   },
   {
     year: 1942,
@@ -623,7 +623,7 @@ export const events = [
     day: 6,
     description: "Upadek Filipin",
     info: "Wojska japońskie zajęły całe Filipiny.",
-    type: "",
+    type: "ShieldOff",
   },
   {
     year: 1942,
@@ -631,7 +631,7 @@ export const events = [
     day: 26,
     description: "Ofensywa Osi w Afryce",
     info: "Początek ofensywy wojsk niemieckich i włoskich w Afryce Północnej.",
-    type: "",
+    type: "Swords",
   },
   {
     year: 1942,
@@ -639,7 +639,7 @@ export const events = [
     day: 3,
     description: "Bitwa o Midway",
     info: "Bitwa o Midway (3–7 czerwca), przełomowe zwycięstwo USA nad Japonią.",
-    type: "",
+    type: "Swords",
   },
   {
     year: 1942,
@@ -647,7 +647,7 @@ export const events = [
     day: 21,
     description: "Zdobycie Tobruku",
     info: "Wojska niemieckie zajęły Tobruk.",
-    type: "",
+    type: "MapPinned",
   },
   {
     year: 1942,
@@ -655,7 +655,7 @@ export const events = [
     day: 25,
     description: "Wejście Niemców do Egiptu",
     info: "Wojska niemieckie przekroczyły granice Egiptu.",
-    type: "",
+    type: "Locate",
   },
   {
     year: 1942,
@@ -663,7 +663,7 @@ export const events = [
     day: 28,
     description: "Ofensywa Niemców na południu Rosji",
     info: "Rozpoczęcie niemieckiej ofensywy w południowo-wschodniej Rosji.",
-    type: "",
+    type: "Swords",
   },
   {
     year: 1942,
@@ -671,7 +671,7 @@ export const events = [
     day: 4,
     description: "Zdobycie Sewastopola",
     info: "Wojska niemieckie zdobyły Sewastopol.",
-    type: "",
+    type: "MapPinned",
   },
   {
     year: 1942,
@@ -679,7 +679,7 @@ export const events = [
     day: 16,
     description: "Obława Vel d’Hiv",
     info: "Największe masowe aresztowanie francuskich Żydów, przeprowadzone przez Niemców i kolaborantów.",
-    type: "",
+    type: "Shuffle",
   },
   {
     year: 1942,
@@ -687,7 +687,7 @@ export const events = [
     day: 19,
     description: "Początek walk o Stalingrad",
     info: "Rozpoczęcie bitwy o Stalingrad.",
-    type: "",
+    type: "Swords",
   },
   {
     year: 1942,
@@ -695,7 +695,7 @@ export const events = [
     day: 31,
     description: "Ofensywa na Aleksandrię",
     info: "Rozpoczęcie niemieckiej ofensywy na Aleksandrię (załamała się 2 września).",
-    type: "",
+    type: "Swords",
   },
   {
     year: 1942,
@@ -703,7 +703,7 @@ export const events = [
     day: 23,
     description: "Bitwa pod El Alamein",
     info: "Początek zwycięskiej ofensywy wojsk brytyjskich w Afryce Północnej.",
-    type: "",
+    type: "Swords",
   },
   {
     year: 1942,
@@ -711,7 +711,7 @@ export const events = [
     day: 7,
     description: "Lądowanie aliantów w Afryce Północnej",
     info: "Lądowanie wojsk alianckich w Maroku i Algierii (7/8 listopada).",
-    type: "",
+    type: "Plane",
   },
   {
     year: 1942,
@@ -719,7 +719,7 @@ export const events = [
     day: 11,
     description: "Niemcy zajmują wolną Francję",
     info: "Wojska niemieckie wkroczyły do wolnej części Francji.",
-    type: "",
+    type: "MapPinned",
   },
   {
     year: 1942,
@@ -727,7 +727,7 @@ export const events = [
     day: 13,
     description: "Brytyjczycy zajmują Tobruk",
     info: "Wojska brytyjskie zajęły Tobruk.",
-    type: "",
+    type: "Locate",
   },
   {
     year: 1942,
@@ -735,7 +735,7 @@ export const events = [
     day: 19,
     description: "Kontrofensywa Armii Czerwonej",
     info: "Armia Czerwona rozpoczęła kontrofensywę na południu Rosji.",
-    type: "",
+    type: "Swords",
   },
   {
     year: 1943,
@@ -743,7 +743,7 @@ export const events = [
     day: 14,
     description: "Konferencja w Casablance",
     info: "Spotkanie Churchilla i Roosevelta w Casablance. Wśród omawianych spraw m.in. decyzja o nasileniu bombardowań na Niemcy oraz kwestia przeniesienia działań wojennych na teren Europy.",
-    type: "",
+    type: "ScrollText",
   },
   {
     year: 1943,
@@ -751,7 +751,7 @@ export const events = [
     day: 18,
     description: "Przerwanie blokady Leningradu",
     info: "Przerwanie blokady Leningradu, najdłuższego oblężenia II wojny światowej.",
-    type: "",
+    type: "ShieldMinus",
   },
   {
     year: 1943,
@@ -759,7 +759,7 @@ export const events = [
     day: 23,
     description: "Odzyskanie Trypolisu",
     info: "Wojska niemieckie i włoskie opuściły Trypolis.",
-    type: "",
+    type: "BicepsFlexed",
   },
   {
     year: 1943,
@@ -767,7 +767,7 @@ export const events = [
     day: 2,
     description: "Kapitulacja pod Stalingradem",
     info: "Kapitulacja wojsk niemieckich pod Stalingradem. Do niewoli sowieckiej wziętych zostało ponad 90 tys. żołnierzy niemieckich, feldmarszałek Friedrich von Paulus oraz 20 generałów.",
-    type: "",
+    type: "ShieldOff",
   },
   {
     year: 1943,
@@ -775,7 +775,7 @@ export const events = [
     day: 18,
     description: "Goebbels ogłasza wojnę totalną",
     info: "Minister propagandy Joseph Goebbels w przemówieniu wygłoszonym w berlińskim Pałacu Sportu ogłosił rozpoczęcie „wojny totalnej”.",
-    type: "",
+    type: "Flag",
   },
   {
     year: 1943,
@@ -783,7 +783,7 @@ export const events = [
     day: 28,
     description: "Sabotaż w Telemarku",
     info: "Norweskie siły specjalne zniszczyły wytwórnię ciężkiej wody w Telemarku, opóźniając tym samym niemieckie prace nad bombą atomową.",
-    type: "",
+    type: "Swords",
   },
   {
     year: 1943,
@@ -791,7 +791,7 @@ export const events = [
     day: 13,
     description: "Ujawnienie zbrodni katyńskiej",
     info: "Władze niemieckie na konferencji prasowej w Berlinie ujawniły odkrycie masowych grobów polskich oficerów zamordowanych przez NKWD w Katyniu. Dwa dni później władze ZSRS zaprzeczyły niemieckim twierdzeniom. Wydarzenia te zostały wykorzystane przez Kreml do zerwania stosunków z rządem RP, który domagał się wyjaśnienia okoliczności zbrodni.",
-    type: "",
+    type: "ScrollText",
   },
   {
     year: 1943,
@@ -799,7 +799,7 @@ export const events = [
     day: 19,
     description: "Powstanie w getcie warszawskim",
     info: "Początek Powstania w getcie warszawskim.",
-    type: "",
+    type: "Swords",
   },
   {
     year: 1943,
@@ -807,7 +807,7 @@ export const events = [
     day: 12,
     description: "Kapitulacja Osi w Afryce",
     info: "Kapitulacja wojsk niemieckich i włoskich w Afryce Północnej.",
-    type: "",
+    type: "ShieldOff",
   },
   {
     year: 1943,
@@ -815,7 +815,7 @@ export const events = [
     day: 12,
     description: "Rozmowy w Waszyngtonie",
     info: "Rozmowy Churchilla i Roosevelta w Waszyngtonie: decyzja o lądowaniu wojsk alianckich na południu Włoch, przełożenie inwazji we Francji na 1944 r.",
-    type: "",
+    type: "ScrollText",
   },
   {
     year: 1943,
@@ -823,7 +823,7 @@ export const events = [
     day: 5,
     description: "Bitwa pod Kurskiem",
     info: "Początek nieudanej niemieckiej ofensywy pod Kurskiem – największa bitwa pancerna II wojny światowej.",
-    type: "",
+    type: "Swords",
   },
   {
     year: 1943,
@@ -831,7 +831,7 @@ export const events = [
     day: 10,
     description: "Lądowanie na Sycylii",
     info: "Lądowanie wojsk alianckich na Sycylii.",
-    type: "",
+    type: "Plane",
   },
   {
     year: 1943,
@@ -839,7 +839,7 @@ export const events = [
     day: 12,
     description: "Kapitulacja Syrakuz",
     info: "Kapitulacja Syrakuz na Sycylii. Początek kontrofensywy Armii Czerwonej w rejonie Orła.",
-    type: "",
+    type: "ShieldOff",
   },
   {
     year: 1943,
@@ -847,7 +847,7 @@ export const events = [
     day: 24,
     description: "Naloty na Hamburg",
     info: "Masowe naloty alianckie na Hamburg.",
-    type: "",
+    type: "Plane",
   },
   {
     year: 1943,
@@ -855,7 +855,7 @@ export const events = [
     day: 25,
     description: "Odsunięcie Mussoliniego",
     info: "We Włoszech Benito Mussolini został odsunięty od władzy przez Wielką Radę Faszystowską i aresztowany.",
-    type: "",
+    type: "Ban",
   },
   {
     year: 1943,
@@ -863,7 +863,7 @@ export const events = [
     day: 3,
     description: "Ofensywa Armii Czerwonej",
     info: "Ofensywa Armii Czerwonej w rejonie Biełgorodu.",
-    type: "",
+    type: "Swords",
   },
   {
     year: 1943,
@@ -871,7 +871,7 @@ export const events = [
     day: 14,
     description: "Rozmowy w Quebec",
     info: "Rozmowy Churchilla i Roosevelta w Quebec m.in. na temat inwazji we Francji (Operacja „Overlord”).",
-    type: "",
+    type: "ScrollText",
   },
   {
     year: 1943,
@@ -879,7 +879,7 @@ export const events = [
     day: 23,
     description: "Zajęcie Charkowa",
     info: "Armia Czerwona zajęła Charków.",
-    type: "",
+    type: "Locate",
   },
   {
     year: 1943,
@@ -887,7 +887,7 @@ export const events = [
     day: 3,
     description: "Lądowanie w Kalabrii",
     info: "Lądowanie wojsk brytyjskich w Kalabrii.",
-    type: "",
+    type: "Plane",
   },
   {
     year: 1943,
@@ -895,7 +895,7 @@ export const events = [
     day: 8,
     description: "Zawieszenie broni z Włochami",
     info: "Ogłoszenie zawieszenia broni z Włochami.",
-    type: "",
+    type: "ShieldMinus",
   },
   {
     year: 1943,
@@ -903,7 +903,7 @@ export const events = [
     day: 12,
     description: "Uwolnienie Mussoliniego",
     info: "Niemieccy spadochroniarze uwolnili więzionego w Gran Sasso Mussoliniego.",
-    type: "",
+    type: "HandHelping",
   },
   {
     year: 1943,
@@ -911,7 +911,7 @@ export const events = [
     day: 13,
     description: "Lądowanie na Korsyce",
     info: "Oddziały Wolnych Francuzów wylądowały na Korsyce, którą zajęły 5 października.",
-    type: "",
+    type: "Plane",
   },
   {
     year: 1943,
@@ -919,7 +919,7 @@ export const events = [
     day: 19,
     description: "Zdobycie Sardynii",
     info: "Wojska alianckie zdobyły Sardynię.",
-    type: "",
+    type: "MapPinned",
   },
   {
     year: 1943,
@@ -927,7 +927,7 @@ export const events = [
     day: 26,
     description: "Odzyskanie Smoleńska",
     info: "Armia Czerwona odzyskała Smoleńsk.",
-    type: "",
+    type: "Locate",
   },
   {
     year: 1943,
@@ -935,7 +935,7 @@ export const events = [
     day: 13,
     description: "Wypowiedzenie wojny Niemcom przez Włochy",
     info: "Włoski rząd Pietra Badoglia wypowiedział wojnę Niemcom.",
-    type: "",
+    type: "Swords",
   },
   {
     year: 1943,
@@ -943,7 +943,7 @@ export const events = [
     day: 23,
     description: "Ofensywa nad Dnieprem",
     info: "Ofensywa Armii Czerwonej nad Dnieprem.",
-    type: "",
+    type: "Swords",
   },
   {
     year: 1943,
@@ -951,7 +951,7 @@ export const events = [
     day: 25,
     description: "Zdobycie Dniepropietrowska",
     info: "Armia Czerwona zdobyła Dniepropietrowsk.",
-    type: "",
+    type: "MapPinned",
   },
   {
     year: 1943,
@@ -959,7 +959,7 @@ export const events = [
     day: 3,
     description: "Odzyskanie Kijowa",
     info: "Wojska sowieckie odzyskały Kijów.",
-    type: "",
+    type: "MapPinned",
   },
   {
     year: 1943,
@@ -967,7 +967,7 @@ export const events = [
     day: 22,
     description: "Konferencja w Kairze",
     info: "Konferencja w Kairze z udziałem Churchilla, Roosevelta oraz Czang Kaj-szeka.",
-    type: "",
+    type: "ScrollText",
   },
   {
     year: 1943,
@@ -975,7 +975,7 @@ export const events = [
     day: 28,
     description: "Konferencja w Teheranie",
     info: "Konferencja Wielkiej Trójki w Teheranie: Churchill, Roosevelt i Stalin.",
-    type: "",
+    type: "ScrollText",
   },
   {
     year: 1944,
@@ -983,7 +983,7 @@ export const events = [
     day: 3,
     description: "Armia Czerwona przekroczyła granicę polsko-sowiecką",
     info: "Armia Czerwona przekroczyła granicę polsko-sowiecką z 1939 r. w okolicach miasta Sarny.",
-    type: "",
+    type: "Locate",
   },
   {
     year: 1944,
@@ -991,7 +991,7 @@ export const events = [
     day: 17,
     description: "Likwidacja kotła pod Białą Cerkwią i Korsuniem",
     info: "Likwidacja kotła pod Białą Cerkwią i Korsuniem – straty niemieckie: ok. 55 tys.",
-    type: "",
+    type: "ScrollText",
   },
   {
     year: 1944,
@@ -999,7 +999,7 @@ export const events = [
     day: 20,
     description: "Masowe naloty amerykańskie na Niemcy",
     info: "Masowe naloty amerykańskie na Niemcy, tzw. Big Week.",
-    type: "",
+    type: "Plane",
   },
   {
     year: 1944,
@@ -1007,7 +1007,7 @@ export const events = [
     day: 4,
     description: "Początek ofensywy wojsk sowieckich na Ukrainie",
     info: "Początek ofensywy wojsk sowieckich na Ukrainie.",
-    type: "",
+    type: "Swords",
   },
   {
     year: 1944,
@@ -1015,7 +1015,7 @@ export const events = [
     day: 5,
     description: "Rozpoczęcie operacji alianckiej w Birmie",
     info: "Rozpoczęcie operacji alianckiej w Birmie.",
-    type: "",
+    type: "Flag",
   },
   {
     year: 1944,
@@ -1023,7 +1023,7 @@ export const events = [
     day: 19,
     description: "Początek niemieckiej okupacji Węgier",
     info: "Początek niemieckiej okupacji Węgier.",
-    type: "",
+    type: "Swords",
   },
   {
     year: 1944,
@@ -1031,7 +1031,7 @@ export const events = [
     day: 12,
     description: "Zajęcie Krymu przez Armię Czerwoną",
     info: "Armia Czerwona w wyniku ofensywy rozpoczętej 5 maja zajęła Krym. Wojska alianckie przełamały we Włoszech tzw. Linię Gustawa.",
-    type: "",
+    type: "Locate",
   },
   {
     year: 1944,
@@ -1039,7 +1039,7 @@ export const events = [
     day: 18,
     description: "Zdobycie Monte Cassino",
     info: "Oddziały 2. Korpusu Polskiego zdobyły ruiny klasztoru benedyktynów na Monte Cassino.",
-    type: "",
+    type: "MapPinned",
   },
   {
     year: 1944,
@@ -1047,7 +1047,7 @@ export const events = [
     day: 4,
     description: "Wkroczenie wojsk amerykańskich do Rzymu",
     info: "Do Rzymu wkroczyły oddziały amerykańskie.",
-    type: "",
+    type: "Shuffle",
   },
   {
     year: 1944,
@@ -1055,7 +1055,7 @@ export const events = [
     day: 6,
     description: "Lądowanie w Normandii",
     info: "Siły zbrojne alianckich państw zachodnich rozpoczęły największą w czasie II wojny światowej operację desantową – lądowanie w Normandii. Była ona częścią operacji „Overlord” otwierającej drugi front w Europie.",
-    type: "",
+    type: "Plane",
   },
   {
     year: 1944,
@@ -1063,7 +1063,7 @@ export const events = [
     day: 23,
     description: "Rozpoczęcie operacji białoruskiej przez Armię Czerwoną",
     info: "Armia Czerwona rozpoczęła operację białoruską.",
-    type: "",
+    type: "Swords",
   },
   {
     year: 1944,
@@ -1071,7 +1071,7 @@ export const events = [
     day: 20,
     description: "Nieudany zamach na Hitlera",
     info: "Nieudany zamach na Hitlera w jego kwaterze polowej w Prusach Wschodnich w Wilczym Szańcu.",
-    type: "",
+    type: "Ban",
   },
   {
     year: 1944,
@@ -1079,7 +1079,7 @@ export const events = [
     day: 1,
     description: "Powstanie Warszawskie",
     info: "Wybuch Powstania Warszawskiego.",
-    type: "",
+    type: "Swords",
   },
   {
     year: 1944,
@@ -1087,7 +1087,7 @@ export const events = [
     day: 15,
     description: "Lądowanie wojsk alianckich w południowej Francji",
     info: "Lądowanie wojsk alianckich w południowej Francji.",
-    type: "",
+    type: "Plane",
   },
   {
     year: 1944,
@@ -1095,7 +1095,7 @@ export const events = [
     day: 15,
     description: "Bitwa pod Falaise",
     info: "1. Dywizja Pancerna gen. Stanisława Maczka stoczyła bitwę pod Falaise.",
-    type: "",
+    type: "Swords",
   },
   {
     year: 1944,
@@ -1103,7 +1103,7 @@ export const events = [
     day: 24,
     description: "Wyzwolenie Paryża",
     info: "Wyzwolenie Paryża przez wojska amerykańskie, siły Wolnej Francji i francuski ruch oporu.",
-    type: "",
+    type: "ShieldMinus",
   },
   {
     year: 1944,
@@ -1111,7 +1111,7 @@ export const events = [
     day: 25,
     description: "Rumunia wypowiada wojnę Niemcom",
     info: "Rumunia wypowiada wojnę Niemcom.",
-    type: "",
+    type: "Swords",
   },
   {
     year: 1944,
@@ -1119,7 +1119,7 @@ export const events = [
     day: 26,
     description: "Bułgaria ogłasza neutralność",
     info: "Bułgaria ogłosiła wystąpienie z wojny i neutralność.",
-    type: "",
+    type: "HandHelping",
   },
   {
     year: 1944,
@@ -1127,7 +1127,7 @@ export const events = [
     day: 29,
     description: "Powstanie na Słowacji",
     info: "Wybuch powstania na Słowacji.",
-    type: "",
+    type: "Swords",
   },
   {
     year: 1944,
@@ -1135,7 +1135,7 @@ export const events = [
     day: 4,
     description: "Zajęcie Antwerpii",
     info: "Wojska alianckie zajęły Antwerpię.",
-    type: "",
+    type: "MapPinned",
   },
   {
     year: 1944,
@@ -1143,7 +1143,7 @@ export const events = [
     day: 5,
     description: "ZSRR wypowiada wojnę Bułgarii",
     info: "Związek Sowiecki wypowiedział wojnę Bułgarii.",
-    type: "",
+    type: "Swords",
   },
   {
     year: 1944,
@@ -1151,7 +1151,7 @@ export const events = [
     day: 8,
     description: "Bułgaria wypowiada wojnę Niemcom",
     info: "Bułgaria wypowiedziała wojnę Niemcom.",
-    type: "",
+    type: "Swords",
   },
   {
     year: 1944,
@@ -1159,7 +1159,7 @@ export const events = [
     day: 9,
     description: "Zakończenie stanu wojny ZSRR z Bułgarią",
     info: "Zakończenie stanu wojny Związku Sowieckiego z Bułgarią. Niemcy wystrzeliły na Londyn pierwsze rakiety V2.",
-    type: "",
+    type: "ScrollText",
   },
   {
     year: 1944,
@@ -1167,7 +1167,7 @@ export const events = [
     day: 11,
     description: "Przekroczenie granicy Niemiec przez wojska amerykańskie",
     info: "Wojska amerykańskie przekroczyły granicę Niemiec.",
-    type: "",
+    type: "Locate",
   },
   {
     year: 1944,
@@ -1175,7 +1175,7 @@ export const events = [
     day: 11,
     description: "Konferencja w Quebec",
     info: "Konferencja w Quebec z udziałem Churchilla i Roosevelta: m.in. omówienie kwestii okupacji Niemiec.",
-    type: "",
+    type: "ScrollText",
   },
   {
     year: 1944,
@@ -1183,7 +1183,7 @@ export const events = [
     day: 17,
     description: "Operacja 'Market Garden'",
     info: "Operacja powietrzno-desantowa sił alianckich w Holandii (Operacja „Market Garden”).",
-    type: "",
+    type: "Swords",
   },
   {
     year: 1944,
@@ -1191,7 +1191,7 @@ export const events = [
     day: 19,
     description: "Podpisanie zawieszenia broni między ZSRR a Finlandią",
     info: "Podpisanie zawieszenia broni między ZSRR a Finlandią.",
-    type: "",
+    type: "ScrollText",
   },
   {
     year: 1944,
@@ -1199,7 +1199,7 @@ export const events = [
     day: 30,
     description: "Odwołanie gen. Kazimierza Sosnkowskiego",
     info: "Ze stanowiska Naczelnego Wodza został odwołany gen. Kazimierz Sosnkowski. Na jego miejsce nominowano przebywającego w Warszawie gen. Tadeusza Komorowskiego „Bora”.",
-    type: "",
+    type: "ScrollText",
   },
   {
     year: 1944,
@@ -1207,7 +1207,7 @@ export const events = [
     day: 13,
     description: "Wojska brytyjskie i greckie wkroczyły do Aten",
     info: "Wojska brytyjskie i greckie wkroczyły do Aten.",
-    type: "",
+    type: "Locate",
   },
   {
     year: 1944,
@@ -1215,7 +1215,7 @@ export const events = [
     day: 15,
     description: "Węgierska kapitulacja",
     info: "Regent Węgier Miklós Horthy ogłosił zawieszenie broni z aliantami.",
-    type: "",
+    type: "ShellOff",
   },
   {
     year: 1944,
@@ -1223,7 +1223,7 @@ export const events = [
     day: 16,
     description: "Ferenc Szálasi przejmuje władzę na Węgrzech",
     info: "W wyniku puczu wspieranego przez Niemcy władzę na Węgrzech przejął Ferenc Szálasi, przywódca strzałokrzyżowców węgierskich faszystów.",
-    type: "",
+    type: "ScrollText",
   },
   {
     year: 1944,
@@ -1231,7 +1231,7 @@ export const events = [
     day: 20,
     description: "Wkroczenie wojsk Armii Czerwonej do Belgradu",
     info: "Armia Czerwona wspólnie z oddziałami jugosłowiańskimi wkroczyła do Belgradu.",
-    type: "",
+    type: "Locate",
   },
   {
     year: 1944,
@@ -1239,7 +1239,7 @@ export const events = [
     day: 22,
     description: "Zwycięstwo amerykańskiej floty nad Japonią",
     info: "Flota amerykańska odniosła zwycięstwo nad flotą japońską w rejonie Filipin.",
-    type: "",
+    type: "Ship",
   },
   {
     year: 1944,
@@ -1247,7 +1247,7 @@ export const events = [
     day: 28,
     description: "Bułgaria podpisuje zawieszenie broni",
     info: "Bułgaria podpisała zawieszenie broni z aliantami.",
-    type: "",
+    type: "ScrollText",
   },
   {
     year: 1944,
@@ -1255,7 +1255,7 @@ export const events = [
     day: 29,
     description: "Nalot amerykańskich bombowców na Tokio",
     info: "Pierwszy wielki nalot amerykańskich bombowców na Tokio.",
-    type: "",
+    type: "Plane",
   },
   {
     year: 1944,
@@ -1263,7 +1263,7 @@ export const events = [
     day: 16,
     description: "Początek niemieckiej ofensywy w Ardenach",
     info: "Początek niemieckiej ofensywy w Ardenach.",
-    type: "",
+    type: "Swords",
   },
   {
     year: 1945,
@@ -1271,7 +1271,7 @@ export const events = [
     day: 12,
     description: "Rozpoczęcie zimowej ofensywy Armii Czerwonej",
     info: "Armia Czerwona rozpoczęła zimową ofensywę, która miała na celu dalsze osłabienie niemieckich wojsk na froncie wschodnim.",
-    type: "",
+    type: "Swords",
   },
   {
     year: 1945,
@@ -1279,7 +1279,7 @@ export const events = [
     day: 23,
     description: "Przekroczenie Renu przez wojska alianckie",
     info: "Wojska alianckie, w tym amerykańskie, przekroczyły Ren, co stanowiło jeden z kluczowych momentów w ofensywie zachodniej.",
-    type: "",
+    type: "Locate",
   },
   {
     year: 1945,
@@ -1287,7 +1287,7 @@ export const events = [
     day: 24,
     description: "Armia Czerwona na Odrze",
     info: "Wojska sowieckie osiągnęły linię Odry, zbliżając się do niemieckiej granicy i przygotowując się do ofensywy na Berlin.",
-    type: "",
+    type: "Locate",
   },
   {
     year: 1945,
@@ -1295,7 +1295,7 @@ export const events = [
     day: 4,
     description: "Konferencja „Wielkiej Trójki” w Jałcie",
     info: "W Jałcie odbyła się konferencja liderów alianckich: Churchilla, Roosevelta i Stalina, którzy omawiali plany powojenne.",
-    type: "",
+    type: "ScrollText",
   },
   {
     year: 1945,
@@ -1303,7 +1303,7 @@ export const events = [
     day: 13,
     description: "Zajęcie Budapesztu przez wojska sowieckie",
     info: "Wojska Armii Czerwonej zdobyły stolicę Węgier, co zakończyło niemiecką okupację Budapesztu.",
-    type: "",
+    type: "MapPinned",
   },
   {
     year: 1945,
@@ -1311,7 +1311,7 @@ export const events = [
     day: 13,
     description: "Naloty alianckie na Drezno",
     info: "Siły alianckie przeprowadziły masowe naloty na niemieckie miasto Drezno, które zostało poważnie zniszczone.",
-    type: "",
+    type: "Plane",
   },
   {
     year: 1945,
@@ -1319,7 +1319,7 @@ export const events = [
     day: 3,
     description: "Finlandia wypowiada wojnę Niemcom",
     info: "Finlandia, po wcześniejszych negocjacjach, oficjalnie wypowiedziała wojnę Niemcom, zmieniając stronę w konflikcie.",
-    type: "",
+    type: "Swords",
   },
   {
     year: 1945,
@@ -1327,7 +1327,7 @@ export const events = [
     day: 9,
     description: "Nalot na Tokio",
     info: "Amerykańskie bombowce przeprowadziły kolejny ciężki nalot na Tokio, w wyniku którego zginęło ok. 100 tys. osób.",
-    type: "",
+    type: "Plane",
   },
   {
     year: 1945,
@@ -1335,7 +1335,7 @@ export const events = [
     day: 1,
     description: "Inwazja na Okinawę",
     info: "Wojska amerykańskie rozpoczęły inwazję na Okinawę, jedno z kluczowych strategicznie wysp w drodze do Japonii.",
-    type: "",
+    type: "Swords",
   },
   {
     year: 1945,
@@ -1343,7 +1343,7 @@ export const events = [
     day: 5,
     description: "Wypowiedzenie paktu o nieagresji z Japonią przez ZSRR",
     info: "Związek Sowiecki zerwał pakt o nieagresji z Japonią, przygotowując się do inwazji na Mandżurię.",
-    type: "",
+    type: "ScrollText",
   },
   {
     year: 1945,
@@ -1351,7 +1351,7 @@ export const events = [
     day: 13,
     description: "Zajęcie Wiednia przez Armię Czerwoną",
     info: "Armia Czerwona zdobyła stolicę Austrii, co stanowiło kolejny ważny etap w ofensywie w Europie Środkowej.",
-    type: "",
+    type: "MapPinned",
   },
   {
     year: 1945,
@@ -1359,7 +1359,7 @@ export const events = [
     day: 16,
     description: "Ofensywa na Berlin przez Armię Czerwoną",
     info: "Rozpoczęła się intensywna ofensywa sowiecka, mająca na celu zdobycie Berlina.",
-    type: "",
+    type: "Swords",
   },
   {
     year: 1945,
@@ -1367,7 +1367,7 @@ export const events = [
     day: 19,
     description: "Zajęcie Lipska przez wojska amerykańskie",
     info: "Wojska amerykańskie zdobyły Lipsk, zbliżając się do niemieckich granic.",
-    type: "",
+    type: "MapPinned",
   },
   {
     year: 1945,
@@ -1375,7 +1375,7 @@ export const events = [
     day: 21,
     description: "Wyzwolenie Bolonii przez 2. Korpus Polski",
     info: "Oddziały 2. Korpusu Polskiego wyzwoliły Bolonię, kluczowe miasto na północy Włoch.",
-    type: "",
+    type: "ShieldMinus",
   },
   {
     year: 1945,
@@ -1384,7 +1384,7 @@ export const events = [
     description:
       "Spotkanie wojsk amerykańskich, brytyjskich i radzieckich nad Łabą",
     info: "Wojska alianckie spotkały się w Torgau nad Łabą, co symbolizowało bliskość końca wojny w Europie.",
-    type: "",
+    type: "ScrollText",
   },
   {
     year: 1945,
@@ -1392,7 +1392,7 @@ export const events = [
     day: 26,
     description: "Zdobycie Szczecina przez Armię Czerwoną",
     info: "Wojska Armii Czerwonej zdobyły Szczecin, kontynuując marsz ku zachodowi.",
-    type: "",
+    type: "MapPinned",
   },
   {
     year: 1945,
@@ -1400,7 +1400,7 @@ export const events = [
     day: 28,
     description: "Rozstrzelanie Mussoliniego przez partyzantów",
     info: "Włoscy partyzanci rozstrzelali Benito Mussoliniego, co oznaczało koniec jego dyktatury.",
-    type: "",
+    type: "Ban",
   },
   {
     year: 1945,
@@ -1408,7 +1408,7 @@ export const events = [
     day: 30,
     description: "Samobójstwo Hitlera w Berlinie",
     info: "Adolf Hitler popełnił samobójstwo w swoim bunkrze w Berlinie, co było symbolicznym końcem III Rzeszy.",
-    type: "",
+    type: "Ban",
   },
   {
     year: 1945,
@@ -1416,7 +1416,7 @@ export const events = [
     day: 2,
     description: "Rozkaz zaprzestania walki w Berlinie",
     info: "Dowódca obrony Berlina, gen. Helmuth Weidling, wydał rozkaz zaprzestania walki. SS-Obergrupenfuehrer Karl Wolff podpisał akt kapitulacji wojsk niemieckich we Włoszech.",
-    type: "",
+    type: "ScrollText",
   },
   {
     year: 1945,
@@ -1424,7 +1424,7 @@ export const events = [
     day: 4,
     description: "Kapitulacja Niemiec w Holandii i Skandynawii",
     info: "Admirał Hans-Georg von Friedeburg podpisał akt kapitulacji wojsk niemieckich w Holandii, Danii, Norwegii i północnych Niemczech.",
-    type: "",
+    type: "ShieldOff",
   },
   {
     year: 1945,
@@ -1432,7 +1432,7 @@ export const events = [
     day: 5,
     description: "Powstanie w Pradze i wyzwolenie obozu",
     info: "Wybuchło powstanie w Pradze. Oddziały Brygady Świętokrzyskiej NSZ wyzwoliły niemiecki oboz koncentracyjny dla kobiet w Holiszowie (Czechy), uwalniając ok. 700 więźniarek.",
-    type: "",
+    type: "Swords",
   },
   {
     year: 1945,
@@ -1440,7 +1440,7 @@ export const events = [
     day: 6,
     description: "Zajęcie Wilhelmshaven przez Dywizję Pancerną",
     info: "1. Dywizja Pancerna gen. Stanisława Maczka zajęła Wilhelmshaven, a Armia Czerwona po długim oblężeniu zdobyła Festung Breslau.",
-    type: "",
+    type: "MapPinned",
   },
   {
     year: 1945,
@@ -1448,7 +1448,7 @@ export const events = [
     day: 7,
     description: "Podpisanie kapitulacji Niemiec",
     info: "W kwaterze głównej gen. Dwighta D. Eisenhowera w Reims, gen. Alfred Gustaw Jodl podpisał akt bezwarunkowej kapitulacji Niemiec.",
-    type: "",
+    type: "ScrollText",
   },
   {
     year: 1945,
@@ -1456,7 +1456,7 @@ export const events = [
     day: 8,
     description: "Powtórzenie kapitulacji Niemiec",
     info: "Na żądanie Stalina, kapitulacja Niemiec została powtórzona w Karlhorst, przedmieściach Berlina, przyjęta przez marszałka Georgija Żukowa.",
-    type: "",
+    type: "ShieldOff",
   },
   {
     year: 1945,
@@ -1464,7 +1464,7 @@ export const events = [
     day: 10,
     description: "Zajęcie Pragi przez Armię Czerwoną",
     info: "Armia Czerwona zdobyła Pragę, kończąc niemiecką okupację stolicy Czechosłowacji.",
-    type: "",
+    type: "MapPinned",
   },
   {
     year: 1945,
@@ -1472,7 +1472,7 @@ export const events = [
     day: 14,
     description: "Naloty na Nagoję",
     info: "Amerykańskie bombowce przeprowadziły ciężkie naloty na Nagoję, niszcząc część miasta.",
-    type: "",
+    type: "Plane",
   },
   {
     year: 1945,
@@ -1480,7 +1480,7 @@ export const events = [
     day: 23,
     description: "Naloty na Tokio",
     info: "Amerykańskie bombowce zniszczyły znaczny obszar Tokio podczas kolejnego nalotu.",
-    type: "",
+    type: "Plane",
   },
   {
     year: 1945,
@@ -1488,7 +1488,7 @@ export const events = [
     day: 5,
     description: "Podpisanie Deklaracji Berlińskiej",
     info: "Podpisano Deklarację Berlińską, proklamującą pełną kontrolę sił okupacyjnych nad pokonanymi Niemcami.",
-    type: "",
+    type: "ScrollText",
   },
   {
     year: 1945,
@@ -1504,7 +1504,7 @@ export const events = [
     day: 26,
     description: "Podpisanie Karty Narodów Zjednoczonych",
     info: "Przedstawiciele 50 państw podpisali w San Francisco Kartę Narodów Zjednoczonych, tworząc organizację międzynarodową.",
-    type: "",
+    type: "ScrollText",
   },
   {
     year: 1945,
@@ -1512,7 +1512,7 @@ export const events = [
     day: 16,
     description: "Pierwszy test broni atomowej",
     info: "W pobliżu Alamogordo w Nowym Meksyku przeprowadzono pierwszy test broni atomowej w ramach Projektu Manhattan.",
-    type: "",
+    type: "Bomb",
   },
   {
     year: 1945,
@@ -1520,7 +1520,7 @@ export const events = [
     day: 17,
     description: "Konferencja w Poczdamie",
     info: "Rozpoczęła się konferencja „Wielkiej Trójki” w Poczdamie, gdzie Churchill, Truman i Stalin omawiali dalszy rozwój sytuacji po wojnie.",
-    type: "",
+    type: "ScrollText",
   },
   {
     year: 1945,
@@ -1528,7 +1528,7 @@ export const events = [
     day: 2,
     description: "Największy nalot II wojny światowej",
     info: "Amerykańskie superfortece B-29 przeprowadziły największy nalot II wojny światowej na cztery największe miasta Japonii.",
-    type: "",
+    type: "Plane",
   },
   {
     year: 1945,
@@ -1536,7 +1536,7 @@ export const events = [
     day: 6,
     description: "Zrzucenie bomby atomowej na Hiroszimę",
     info: "Amerykanie zrzucili pierwszą bombę atomową na japońskie miasto Hiroszima, wywołując ogromne zniszczenia i śmierć cywilów.",
-    type: "",
+    type: "Bomb",
   },
   {
     year: 1945,
@@ -1544,7 +1544,7 @@ export const events = [
     day: 8,
     description: "Wypowiedzenie wojny Japonii przez ZSRR",
     info: "ZSRR wypowiedział wojnę Japonii i rozpoczął ofensywę w Mandżurii oraz Korei.",
-    type: "",
+    type: "Swords",
   },
   {
     year: 1945,
@@ -1552,7 +1552,7 @@ export const events = [
     day: 9,
     description: "Zrzucenie bomby atomowej na Nagasaki",
     info: "Amerykanie zrzucili drugą bombę atomową na Nagasaki, zmuszając Japonię do rozważenia kapitulacji.",
-    type: "",
+    type: "Bomb",
   },
   {
     year: 1945,
@@ -1560,7 +1560,7 @@ export const events = [
     day: 10,
     description: "Propozycja zawieszenia broni przez Japonię",
     info: "Rząd japoński zwrócił się do aliantów z propozycją zawieszenia broni.",
-    type: "",
+    type: "ScrollText",
   },
   {
     year: 1945,
@@ -1568,7 +1568,7 @@ export const events = [
     day: 15,
     description: "Przemówienie cesarza Japonii",
     info: "Cesarz Japonii Hirohito wygłosił przemówienie, w którym zaapelował do narodu o zaprzestanie walki.",
-    type: "",
+    type: "ScrollText",
   },
   {
     year: 1945,
@@ -1576,6 +1576,6 @@ export const events = [
     day: 2,
     description: "Kapitulacja Japonii",
     info: "Japonia bezwarunkowo kapitulowała, kończąc II wojnę światową. Skapitulowały ostatnie garnizony japońskie.",
-    type: "",
+    type: "ShieldOff",
   },
 ];

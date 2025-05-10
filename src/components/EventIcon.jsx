@@ -18,6 +18,8 @@ import {
   MapPinned,
   HandHelping,
   ShieldMinus,
+  Ban,
+  Bomb,
 } from "lucide-react";
 
 const EventIcon = ({ type }) => {
@@ -61,6 +63,12 @@ const EventIcon = ({ type }) => {
       return <HandHelping className={iconClass} />;
     case "ShieldMinus":
       return <ShieldMinus className={iconClass} />;
+    case "Ban":
+      return <Ban className={iconClass} />;
+    case "BowArrow":
+      return <BowArrow className={iconClass} />;
+    case "Bomb":
+      return <Bomb className={iconClass} />;
     default:
       return null;
   }
