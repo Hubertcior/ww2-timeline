@@ -14,10 +14,22 @@ export const EventProvider = ({ children }) => {
     setSelectedEvent(randomEvent);
   };
 
+  const selectFirstEvent = () => {
+    const firstEvent = events[0];
+    setSelectedEvent(firstEvent);
+  };
+
+  const selectLastEvent = () => {
+    const lastEvent = events[events.length - 1];
+    setSelectedEvent(lastEvent);
+  };
+
   const value = {
     selectedEvent,
     setSelectedEvent,
     selectRandomEvent,
+    selectFirstEvent,
+    selectLastEvent,
   };
 
   return (

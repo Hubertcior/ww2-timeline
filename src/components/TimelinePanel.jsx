@@ -8,7 +8,7 @@ const TimelinePanel = () => {
     closed: { y: 200, opacity: 0, transition: { duration: 0.5 } },
   };
 
-  const { selectRandomEvent } = useEvent();
+  const { selectRandomEvent, selectFirstEvent, selectLastEvent } = useEvent();
 
   return (
     <motion.div
@@ -18,12 +18,17 @@ const TimelinePanel = () => {
       exit="closed"
       variants={panelVariants}
     >
+      <PanelButton
+        label="Początek II wojny Światowej"
+        onClick={selectFirstEvent}
+      />
+      <PanelButton
+        label="Zakończenie II wojny Światowej"
+        onClick={selectLastEvent}
+      />
       <PanelButton label="Losowa data" onClick={selectRandomEvent} />
-      <PanelButton label="Dzisiejsza data" />
     </motion.div>
   );
 };
 
 export default TimelinePanel;
-//TODO start of war button
-//TODO end of war buuton

@@ -44,7 +44,8 @@ const Info = ({ isOpen }) => {
               animate={{ opacity: [0.3, 1, 0.3] }}
               transition={{ repeat: Infinity, duration: 1.3 }}
             >
-              Wybierz wydarzenie, aby zobaczyć szczegóły.
+              Wybierz wydarzenie, aby zobaczyć szczegóły lub rozwiń panel aby
+              wybrać wydarzenie.
             </motion.h1>
           ) : (
             <motion.div
