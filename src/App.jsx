@@ -4,20 +4,22 @@ import TimelineButton from "./components/TimelineButton.jsx";
 import TimelinePanel from "./components/TimelinePanel.jsx";
 import { events } from "./data/events.js";
 import "./App.css";
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { EventProvider } from "./context/EventContext.jsx";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
+  const timelineRef = useRef();
 
   const handleTimeLineButtonClick = () => {
     setIsOpen((prev) => !prev);
   };
 
-  const panelVariants = {
-    open: { x: 0, transition: { duration: 0.5 } },
-    closed: { x: -200, transition: { duration: 0.5 } },
+  const scrollToEvent = (event) => {
+    if (timelineRef.current) {
+      timelineRef.current.scrollToEvent(event);
+    }
   };
 
   return (
@@ -27,9 +29,12 @@ function App() {
           className={`flex justify-between py-20 px-30 bg-gray-100/90 min-h-screen`}
           animate={!isOpen ? "open" : "closed"}
           initial="closed"
-          variants={panelVariants}
+          variants={{
+            open: { x: 0, transition: { duration: 0.5 } },
+            closed: { x: -200, transition: { duration: 0.5 } },
+          }}
         >
-          <TimeLine events={events} />
+          <TimeLine ref={timelineRef} events={events} />
           <TimelineButton
             isOpen={isOpen}
             handleTimelineButtonClick={handleTimeLineButtonClick}
@@ -37,7 +42,7 @@ function App() {
         </motion.div>
         <Info isOpen={isOpen} />
         <AnimatePresence>
-          {isOpen && <TimelinePanel></TimelinePanel>}
+          {isOpen && <TimelinePanel scrollToEvent={scrollToEvent} />}
         </AnimatePresence>
       </div>
     </EventProvider>
