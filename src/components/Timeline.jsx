@@ -8,7 +8,7 @@ const TimeLine = ({ events, handleClick, selectedEvent }) => {
     "mr-4 text-center text-sm w-40 bg-white p-2 rounded shadow z-10 cursor-pointer";
 
   return (
-    <div className="relative mx-auto min-h-screen flex justify-center">
+    <div className="relative min-h-screen flex justify-center">
       <div className="absolute top-0 bottom-0 w-1 bg-gray-300 left-[77px] z-0"></div>
 
       <div className="relative w-full max-w-[600px]">
