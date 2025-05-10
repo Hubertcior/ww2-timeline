@@ -1,10 +1,13 @@
 import { motion, AnimatePresence } from "framer-motion";
+import { useEvent } from "../context/EventContext.jsx";
 
-const Info = ({ selectedEvent, isOpen }) => {
+const Info = ({ isOpen }) => {
   const infoVariants = {
     open: { x: 0, transition: { duration: 0.5 } },
     closed: { x: -100, transition: { duration: 0.5 } },
   };
+
+  const { selectedEvent } = useEvent();
 
   return (
     <div className="w-1/2 relative">

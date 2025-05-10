@@ -6,14 +6,10 @@ import { events } from "./data/events.js";
 import "./App.css";
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
+import { EventProvider } from "./context/EventContext.jsx";
 
 function App() {
-  const [selectedEvent, setSelectedEvent] = useState(null);
   const [isOpen, setIsOpen] = useState(false);
-
-  const handleEventClick = (event) => {
-    setSelectedEvent(event);
-  };
 
   const handleTimeLineButtonClick = () => {
     setIsOpen((prev) => !prev);
@@ -25,28 +21,26 @@ function App() {
   };
 
   return (
-    <div>
-      <motion.div
-        className={`flex justify-between py-20 px-30 bg-gray-100/90 min-h-screen`}
-        animate={!isOpen ? "open" : "closed"}
-        initial="closed"
-        variants={panelVariants}
-      >
-        <TimeLine
-          events={events}
-          handleClick={handleEventClick}
-          selectedEvent={selectedEvent}
-        />
-        <TimelineButton
-          isOpen={isOpen}
-          handleTimelineButtonClick={handleTimeLineButtonClick}
-        />
-      </motion.div>
-      <Info selectedEvent={selectedEvent} isOpen={isOpen} />
-      <AnimatePresence>
-        {isOpen && <TimelinePanel></TimelinePanel>}
-      </AnimatePresence>
-    </div>
+    <EventProvider>
+      <div>
+        <motion.div
+          className={`flex justify-between py-20 px-30 bg-gray-100/90 min-h-screen`}
+          animate={!isOpen ? "open" : "closed"}
+          initial="closed"
+          variants={panelVariants}
+        >
+          <TimeLine events={events} />
+          <TimelineButton
+            isOpen={isOpen}
+            handleTimelineButtonClick={handleTimeLineButtonClick}
+          />
+        </motion.div>
+        <Info isOpen={isOpen} />
+        <AnimatePresence>
+          {isOpen && <TimelinePanel></TimelinePanel>}
+        </AnimatePresence>
+      </div>
+    </EventProvider>
   );
 }
 

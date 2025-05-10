@@ -1,19 +1,14 @@
 import PanelButton from "./PanelButton.jsx";
-import { useDate } from "../hooks/useDate.js";
 import { motion } from "framer-motion";
+import { useEvent } from "../context/EventContext.jsx";
 
 const TimelinePanel = () => {
-  const { date, rollDate } = useDate();
-
-  function handleRandomDateClick() {
-    rollDate();
-    console.log(date);
-  }
-
   const panelVariants = {
     open: { y: 0, opacity: 1, transition: { duration: 0.5 } },
     closed: { y: 200, opacity: 0, transition: { duration: 0.5 } },
   };
+
+  const { selectRandomEvent } = useEvent();
 
   return (
     <motion.div
@@ -23,7 +18,7 @@ const TimelinePanel = () => {
       exit="closed"
       variants={panelVariants}
     >
-      <PanelButton label="Losowa data" onClick={handleRandomDateClick} />
+      <PanelButton label="Losowa data" onClick={selectRandomEvent} />
       <PanelButton label="Dzisiejsza data" />
     </motion.div>
   );

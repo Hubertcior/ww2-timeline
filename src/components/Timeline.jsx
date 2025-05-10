@@ -1,8 +1,9 @@
 import { motion } from "framer-motion";
 import EventIcon from "./EventIcon";
+import { useEvent } from "../context/EventContext.jsx";
 
-const TimeLine = ({ events, handleClick, selectedEvent }) => {
-  console.log(selectedEvent);
+const TimeLine = ({ events }) => {
+  const { selectedEvent, setSelectedEvent } = useEvent();
 
   const basicStyle =
     "mr-4 text-center text-sm w-40 bg-white p-2 rounded shadow z-10 cursor-pointer";
@@ -26,7 +27,7 @@ const TimeLine = ({ events, handleClick, selectedEvent }) => {
                 borderColor: "#92400e",
                 boxShadow: "0 0 12px black",
               }}
-              onClick={() => handleClick(event)}
+              onClick={() => setSelectedEvent(event)}
             >
               <strong>
                 {event.day + " " + event.month + " " + event.year}
