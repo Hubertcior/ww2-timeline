@@ -4,8 +4,8 @@ import { useEvent } from "../context/EventContext.jsx";
 
 const TimelinePanel = () => {
   const panelVariants = {
-    open: { y: 0, opacity: 1, transition: { duration: 0.5 } },
-    closed: { y: 200, opacity: 0, transition: { duration: 0.5 } },
+    open: { x: 0, opacity: 1, transition: { duration: 0.5 } },
+    closed: { x: 200, opacity: 0, transition: { duration: 0.5 } },
   };
 
   const { selectRandomEvent, selectFirstEvent, selectLastEvent } = useEvent();

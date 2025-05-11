@@ -30,7 +30,7 @@ const Info = ({ isOpen }) => {
       <AnimatePresence mode="wait">
         <motion.div
           className={`border-3 border-amber-900 flex justify-center items-center fixed top-1/2 left-1/2 transform -translate-y-1/2  
-             -translate-x-[40%] w-[500px] h-[600px] bg-gray-200 p-6 rounded-lg shadow-md max-w-md`}
+             -translate-x-[40%] w-[500px] h-[600px] bg-gray-200 p-6 rounded-lg shadow-2xl shadow-gray-500/50 max-w-md`}
           initial="closed"
           animate={!isOpen ? "open" : "closed"}
           variants={infoVariants}
@@ -56,7 +56,7 @@ const Info = ({ isOpen }) => {
             >
               <EventIcon place={"info"} type={selectedEvent.type} />
               <strong>
-                <h2 className="text-xl font-bold border-b-2 border-stone-600 pb-1">
+                <h2 className="text-xl font-bold border-b-2 border-stone-600 pb-1 text-red-500">
                   {selectedEvent.day} {selectedEvent.month} {selectedEvent.year}
                 </h2>
               </strong>
